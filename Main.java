@@ -21,7 +21,7 @@ public class Main {
         System.out.println(s1.toString());
     }*/
     //Exo 3 : LA CLASSE ARRAYLIST
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         Promotion p1 = new Promotion();
         p1.addStudent("John", "Smith");
         p1.addStudent("Mary", "Sue");
@@ -29,9 +29,9 @@ public class Main {
         p1.addStudent("Jane", "Doe");
         p1.afficher();
         p1.writeToFile("Promo 1");
-    }*/
+    }
     //Tp 2
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Prof Prof1 = new Prof("John", "Smith", "45 alle du michel",3,35);
         System.out.println(Prof1.getprixheure());
         System.out.println(Prof1.getsalaire());
@@ -39,5 +39,5 @@ public class Main {
         System.out.println(Prof1.getprixheure());
         System.out.println(Prof1.getsalaire());
 
-    }
+    }*/
 }
