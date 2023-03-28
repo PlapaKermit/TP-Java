@@ -30,8 +30,14 @@ public class Main {
         p1.afficher();
         p1.writeToFile("Promo 1");
     }*/
-    //Tp 2 Exo 1
+    //Tp 2
     public static void main(String[] args) {
+        Prof Prof1 = new Prof("John", "Smith", "45 alle du michel",3,35);
+        System.out.println(Prof1.getprixheure());
+        System.out.println(Prof1.getsalaire());
+        Prof1.modifechelon(4);
+        System.out.println(Prof1.getprixheure());
+        System.out.println(Prof1.getsalaire());
 
     }
 }
