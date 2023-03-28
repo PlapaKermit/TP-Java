@@ -1,4 +1,0 @@
-1:John Smith
-2:Mary Sue
-3:Richard Roe
-4:Jane Doe

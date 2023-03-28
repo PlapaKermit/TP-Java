@@ -1,7 +1,7 @@
 import java.awt.*;
 
 public class Main {
-    //Exo 1
+    //TP 1 Exo 1
     /*public static void main(String[] args) {
         System.out.println("Hello world!");
         Voiture v1 = new Voiture();
@@ -21,14 +21,17 @@ public class Main {
         System.out.println(s1.toString());
     }*/
     //Exo 3 : LA CLASSE ARRAYLIST
+    /*public static void main(String[] args) {
+        Promotion p1 = new Promotion();
+        p1.addStudent("John", "Smith");
+        p1.addStudent("Mary", "Sue");
+        p1.addStudent("Richard", "Roe");
+        p1.addStudent("Jane", "Doe");
+        p1.afficher();
+        p1.writeToFile("Promo 1");
+    }*/
+    //Tp 2 Exo 1
     public static void main(String[] args) {
-        Promotion p = new Promotion();
-        p.addStudent("John", "Smith");
-        p.addStudent("Mary", "Sue");
-        p.addStudent("Richard", "Roe");
-        p.addStudent("Jane", "Doe");
-        p.afficher();
-        p.writeToFile();
-    }
 
+    }
 }
