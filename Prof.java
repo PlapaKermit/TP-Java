@@ -1,7 +1,7 @@
 public class Prof extends Personne{
-    public int echelon;
-    public int nbheures;
-    public static int[] tauxsalaire = {10,11,12,13,14,15,16,17,18,19};
+    private int echelon;
+    private int nbheures;
+    private static int[] tauxsalaire = {10,11,12,13,14,15,16,17,18,19};
 
     public Prof(String nom, String prenom, String adresse, int echelon, int nbheures) {
         super(nom, prenom, adresse);
