@@ -2,14 +2,13 @@ import java.util.ArrayList;
 import java.io.*;
 
 public class Promotion {
-    ArrayList<Student> students;
-    int maxStudents = 10;
+    private ArrayList<Student> students;
 
     public int size() {
         return students.size();
     }
     public Promotion() {
-    students = new ArrayList<Student>();
+    students = new ArrayList<>();
     }
     public void addStudent(String firstName, String lastName) {
 
@@ -21,7 +20,11 @@ public class Promotion {
             System.out.println(s.toString());
         }
     }
-    //Write a method that writes the list of students to a file
+
+    /**
+     * This method write a promotion to a file
+     * @param namePromo the name of the promotion
+     */
     public void writeToFile(String namePromo) {
 
         try {

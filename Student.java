@@ -1,7 +1,7 @@
 public class Student {
-    public int id;
-    public String firstName;
-    public String lastName;
+    private int id;
+    private String firstName;
+    private String lastName;
 
     public Student(int id, String firstName, String lastName) {
         this.id = id;
